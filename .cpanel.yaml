@@ -1,0 +1,13 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/vidrieri/public_html/
+    - /bin/cp -R contactform $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R lib $DEPLOYPATH
+    - /bin/cp blog-details.html $DEPLOYPATH
+    - /bin/cp blog.html $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp lib $DEPLOYPATH
